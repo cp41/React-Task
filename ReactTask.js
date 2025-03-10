@@ -12,7 +12,7 @@ const ReactTask = () => (
 )
 
 function ProductDisplay() {
-  return <Product name='HP Laptop' price={62000} />;
+  return <Product name='DELL Laptop' price={62000} />;
 }
 
 const Product = (props) => {
@@ -27,7 +27,7 @@ const Product = (props) => {
 
 
 function UserProfile() {
-  return <User username='Pranav Gurram' city='Pune' />;
+  return <User username='Chetan' city='Pune' />;
 }
 
 const User = (props) => {
@@ -41,7 +41,7 @@ const User = (props) => {
 
 
 function StudentDetails() {
-  return <Student name='Pranav Gurram' grade='A+' />;
+  return <Student name='Chetan Patil' grade='A+' />;
 }
 
 const Student = (props) => {
@@ -83,7 +83,7 @@ const Job = (props) => {
 
 
 function Bio() {
-  return <Person name='PRANAV' hobby='Watching Food Videos' />;
+  return <Person name='CHETAN' hobby='Watching Food Videos' />;
 }
 
 const Person = (props) => {
